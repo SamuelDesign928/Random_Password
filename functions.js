@@ -1,5 +1,5 @@
 function generateRandomPassword() {
-    const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
     let pass = ""
     for (let i = 0; i < 10; i++) {
         pass += alphabet.charAt(Math.floor(Math.random() * alphabet.length));
